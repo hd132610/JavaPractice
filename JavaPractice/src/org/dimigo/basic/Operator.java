@@ -10,7 +10,7 @@ public class Operator {
 		double tr = (tr_a + tr_b) * tr_h / 2;
 		
 		int pa_a = 9;
-		double pa_h = 5.4;   
+		double pa_h = 5.4;
 		double pa = pa_a * pa_h;
 		
 		double area = tr >= pa ? tr - pa : pa - tr;
