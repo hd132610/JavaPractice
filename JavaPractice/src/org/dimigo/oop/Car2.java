@@ -9,7 +9,7 @@ package org.dimigo.oop;
  * 		|_ Car2
  *  
  * 1. 개요 :
- * 2. 작성일 : 2015. 4. 16. 
+ * 2. 작성일 : 2015. 4. 16.
  * </pre>
  *
  * @author H.J.Park
