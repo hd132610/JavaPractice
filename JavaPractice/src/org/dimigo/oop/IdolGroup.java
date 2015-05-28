@@ -28,6 +28,7 @@ public class IdolGroup {
 				{"CL", "산다라박", "박봄", "민지"},
 				{"유라", "혜리", "소진", "민아"}
 		};
+		
 		for(int i=0; i<idolGroup.length; i++) {
 			System.out.println("<< " + idolGroup[i] + " 멤버 >>");
 				for(int j=0; j<members[i].length; j++) {
