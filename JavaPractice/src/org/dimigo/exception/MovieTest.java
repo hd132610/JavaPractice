@@ -45,7 +45,7 @@ public class MovieTest {
 			throw new AgeCheckException(movie);
 		}
 		else {
-			System.out.println(movie.getTitle() + "영화 즐감하세용~~");
+			System.out.println(movie.getTitle() + " 영화 즐감하세용~~");
 		}
 	}
 
