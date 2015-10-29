@@ -3,10 +3,8 @@
  */
 package org.dimigo.io;
 
-import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
@@ -94,7 +92,6 @@ public class NaverSearch {
 	        // files/movies.txt 파일에 write하기
 	        File f1 = new File("files/movies.txt");
 	        BufferedWriter writer = new BufferedWriter(new FileWriter(f1, false));
-	        String result;
 	        
 	        for(int i=0; i<movieList.size(); i++){
 	        	writer.write((i+1) + ". " + (movieList.get(i)).getTitle() + " - " + (movieList.get(i)).getActors() + "\n");
