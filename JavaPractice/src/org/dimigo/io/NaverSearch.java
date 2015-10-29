@@ -97,7 +97,7 @@ public class NaverSearch {
 	        String result;
 	        
 	        for(int i=0; i<movieList.size(); i++){
-	        	writer.write((i+1) + "." + (movieList.get(i)).getTitle() + " - [" + (movieList.get(i)).getActors() + "]\n");
+	        	writer.write((i+1) + ". " + (movieList.get(i)).getTitle() + " - [" + (movieList.get(i)).getActors() + "]\n");
 	        }
 	        writer.close();
 	        
