@@ -51,7 +51,7 @@ public class ServerThread implements Runnable {
 	    	out.println(response);
 	    	
 	    } catch(Exception e) {
-	    	e.printStackTrace();   	
+	    	e.printStackTrace();   	 
 	    } finally {
 	    	try {
 				connectionSocket.close();				

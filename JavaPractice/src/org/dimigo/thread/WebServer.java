@@ -24,7 +24,7 @@ public class WebServer {
 	        System.out.println("Webserver starting up on port 80");
 	        System.out.println("(press ctrl-c to exit)");
 	        
-	        Socket connectionSocket;
+	        Socket connectionSocket; 
 	        Thread serverThread;
 	  
 	        // 반복문을 돌면서 클라이언트의 접속을 받는다.
