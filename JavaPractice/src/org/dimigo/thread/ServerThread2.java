@@ -71,7 +71,7 @@ public class ServerThread2 implements Runnable {
 	    				sb.append(line);
 	    			}
 	    		}
-		    	String response = sb.toString(); 
+		    	String response = sb.toString();
 		    	
 		    	System.out.println("response : [" + response + "]");
 		    	

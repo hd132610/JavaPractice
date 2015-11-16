@@ -69,7 +69,7 @@ public class ServerThread3 implements Runnable {
 	    		 ********************************************/
 		    	try(BufferedInputStream bis = new BufferedInputStream(new FileInputStream(file))) {
 		    		bis.read(bytes);
-		    	} 
+		    	}
 		    	
 		    	// 정상적으로 처리가 되었음을 나타내는 200 코드를 출력한다.
 		    	out.write(("HTTP/1.1 200" + NEWLINE).getBytes());
